@@ -1,0 +1,112 @@
+:root{
+  --font-size: 16px;
+}
+
+.hidden {
+    display: none; 
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+img {
+  width: 100%;
+  height: 100vh;
+}
+
+span{
+  align-items: center;
+}
+
+.container{
+  width: 100%;
+  height: 100vh;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.todo-input {
+  width: 500px;
+  height: 32px;
+  font-size: var(--font-size);
+  border: 0;
+  border-radius: 10px;
+  outline: none;
+  padding-left: 10px;
+  background-color: rgb(233, 233, 233,0.5);
+}
+
+.iconimg {
+  position: fixed;
+  width: 70px;
+  height: 70px;
+  top: 80%;
+  right: 7%;
+}
+
+#clock{
+  font-size: 80px;
+  color: #ffffff;
+}
+
+#weather{
+  position: fixed;
+  top: 90%;
+  right: 5%;
+  font-size: var(--font-size);
+  color: #ffffff;
+}
+
+#loginInfo {
+  width: 300px;
+  height: 32px;
+  font-size: var(--font-size);
+  border: 0;
+  border-radius: 10px;
+  outline: none;
+  padding-left: 10px;
+  background-color: rgb(233, 233, 233,0.5);
+  margin-bottom: 10px;
+}
+
+#loginBtn {
+  width: 70px;
+  height: 32px;
+  font-size: var(--font-size);
+  border: 0;
+  border-radius: 10px;
+  outline: none;
+  background-color: rgb(233, 233, 233);
+  margin-bottom: 10px;
+}
+
+#todo-list {
+  list-style: none;
+}
+
+#todo-list li {
+  color: #ffffff;
+  font-size: var(--font-size);
+  margin-top: 10px;
+}
+
+#todo-list button {
+    width: 25px;
+    height: 20px;
+    border: 0;
+    border-radius: 10px;
+    background-color: rgb(233, 233, 233,0.5);
+    color: #ffffff;
+}
+
+#quote {
+  color: #ffffff;
+  font-size: var(--font-size);
+  margin-top: 10px;
+}
